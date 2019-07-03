@@ -46,37 +46,6 @@ include('common.php');
     <script src="include/lib/spectrum/spectrum.js"></script>
     <script src="include/js/asset-studio.pack.js"></script>
 
-    <!-- Analytics -->
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-34362324-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-
-    </script>
-
-    <!-- Share This -->
-    <script type="text/javascript">var switchTo5x = true;</script>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-    <script
-        type="text/javascript">stLight.options({publisher: "ed3a7034-081d-4179-9fad-3ea83de87da2", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-
-    <script type="text/javascript">
-
-        function positFix() {
-            $('#ads').css("left", $('#main-container').offset().left + $('#main-container').width() + 20);
-        }
-    </script>
-
 </head>
 <body>
 
@@ -788,40 +757,10 @@ include('common.php');
     </p>
     <br/><br/>
 
-    <div align="center">
-        <span class='st_twitter_hcount' displayText='Tweet'></span>
-        <span class='st_plusone_hcount' displayText='Google +1'></span>
-        <span class='st_googleplus_hcount' displayText='Google +'></span>
-        <span class='st_yammer_hcount' displayText='Yammer'></span>
-        <span class='st_sharethis_hcount' displayText='ShareThis'></span>
-        <span class='st_facebook_hcount' displayText='Facebook'></span>
-        <span class='st_linkedin_hcount' displayText='LinkedIn'></span>
-        <span class='st_viadeo_hcount' displayText='Viadeo'></span>
-        <span class='st_delicious_hcount' displayText='Delicious'></span>
-        <span class='st_tumblr_hcount' displayText='Tumblr'></span>
-        <span class='st_reddit_hcount' displayText='Reddit'></span>
-        <span class='st_email_hcount' displayText='Email'></span>
-    </div>
 </div>
-</div>
-
-<div id="ads" style="position: fixed; top: 25px;">
-    <script type="text/javascript"><!--
-        google_ad_client = "ca-pub-9027316204077186";
-        /* android-holo-colors */
-        google_ad_slot = "9681771262";
-        google_ad_width = 120;
-        google_ad_height = 600;
-        //-->
-    </script>
-    <script type="text/javascript"
-            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-    <br/><a href="faq.html#ads">Why ads ?</a>
 </div>
 
 <script>
-positFix();
 $(studio.checkBrowser);
 
 var densities = {'xxhdpi': 1, 'xhdpi': 1, 'hdpi': 1, 'mdpi': 1};
