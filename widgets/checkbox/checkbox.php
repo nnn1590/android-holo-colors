@@ -1,4 +1,4 @@
-<?
+<?php
 
 /**
  * Copyright 2013 Android Holo Colors by Jérôme Van Der Linden
