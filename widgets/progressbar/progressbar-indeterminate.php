@@ -27,7 +27,7 @@ $number = $_GET['number'];
 
 if (isset($color) && isset($size) && isset($holo) && isset($number)) {
     $et = new ProgressBar("", $number);
-    $et->generate_image($color, $size, $holo);
+    $et->generate_image($color, $size, $holo, $kitkat);
 }
 
 ?>
