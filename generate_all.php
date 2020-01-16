@@ -69,8 +69,8 @@ if (!isset($origin)) {
     $origin = "idea";
 }
 
-include_once("database.php");
-update_stats($origin);
+//include_once("database.php");
+//update_stats($origin);
 
 if (strlen($color) == 3) {
     $color2 = $color[0] . $color[0] . $color[1] . $color[1] . $color[2] . $color[2];
