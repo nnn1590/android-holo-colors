@@ -81,8 +81,8 @@ include('common.php');
         <td><a class="dragout form-button" onclick="javascript:downloadFile();">Download .ZIP</a></td>
     </tr>
     <tr>
-        <td><br>This website is <b>totally free</b> but if you saved time and money with it, please <b>make a small
-                donation</b> :
+        <td><br>This website is a fork of <a href="https://github.com/jeromevdl/android-holo-colors">jeromevdl/android-holo-colors</a>; if you saved time and money, please <b>make a small
+                donation to him</b> :
         </td>
         <td><br>
 
@@ -746,7 +746,7 @@ include('common.php');
 </div>
 
 <div id="footer">
-    <p>Created by <a href="mailto:jeromevdl@android-holo-colors.com">Jérôme Van Der Linden</a>.</p>
+    <p>Created by <a href="https://github.com/jeromevdl">Jérôme Van Der Linden</a>.</p>
 
     <p>Built upon the <a href="http://code.google.com/p/android-ui-utils" target="_blank">android-ui-utils</a> asset
         studio framework created by <a href="http://roman.nurik.net/" target="_blank">Roman Nurik</a>, copyright Google
