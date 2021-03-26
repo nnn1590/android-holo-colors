@@ -1,6 +1,6 @@
-![Android Holo Colors logo](http://android-holo-colors.com/H-256.png)
+Android Holo Colors
 
-Website is available here: http://android-holo-colors.com/
+Website is available here: https://nnn1590.org/android-holo-colors/
 
 Overview
 --------
