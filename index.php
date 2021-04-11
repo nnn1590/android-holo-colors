@@ -65,8 +65,7 @@ include('common.php');
         editext or spinner with your own colours for your Android application. It will generate all necessary nine patch
         assets plus associated XML drawables and styles which you can copy straight into your project.
         <br/>
-        If you have any question, please refer to the <a href="faq.html">FAQ</a> or <a
-            href="https://github.com/jeromevdl/android-holo-colors/issues" target="_blank">report an issue</a>.</p>
+        If you have any question, please refer to the <a href="faq.html">FAQ</a>.</p>
 </div>
 
 <div id="inputs">
